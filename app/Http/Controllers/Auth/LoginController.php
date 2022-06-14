@@ -41,7 +41,7 @@ class LoginController extends Controller
     }
 
     protected function redirectTo(){
-        if (Auth::check() && Auth::user()->role == '1'){
+        if (Auth::check() && Auth::user()->name == 'Josua Felix'){
             return('/admin/index');
         }else if(Auth::check() && Auth::user()->role == '2'){
             return('/admin/guru');
