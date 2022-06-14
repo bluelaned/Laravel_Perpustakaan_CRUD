@@ -70,7 +70,7 @@ h3{
 				<div class="row">
       				<div class="col-md">
 						<!-- Untuk menginputkan data ke database hanya perlu perhatikan "name" -->
-        				<form action="{{ url('admin/guru') }}" method="post">
+        				<form action="{{ url('/admin/guru') }}" method="post">
           					@csrf
 							<div class="form-group">
 								<label for="kdguru">Masukkan Kode Guru</label>
