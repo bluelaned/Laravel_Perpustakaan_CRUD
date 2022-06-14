@@ -385,7 +385,7 @@
   <div class="card-body">
     <div class="row">
       <div class="col-md">
-        <h1 class="text-center h5">Tambah Datu</h1>
+        <h1 class="text-center h5">Tambah Data</h1>
       </div>
     </div>
 
