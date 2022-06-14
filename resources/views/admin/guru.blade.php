@@ -70,9 +70,8 @@ h3{
 				<div class="row">
       				<div class="col-md">
 						<!-- Untuk menginputkan data ke database hanya perlu perhatikan "name" -->
-        				<form action="{{ url('/admin/guru') }}" method="post">
-						<meta name="csrf-token" content="{{ csrf_token() }}">	
-						@csrf {{ csrf_field() }}
+        				<form action="{{ url('/admin/guru') }}" method="post">	
+						@CSRF
 							<div class="form-group">
 								<label for="kdguru">Masukkan Kode Guru</label>
 								<input type="text" name="kode_guru" id="kdguru" class="form-control" value="{{ old('kdguru') }}">
