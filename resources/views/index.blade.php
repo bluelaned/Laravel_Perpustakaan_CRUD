@@ -24,7 +24,7 @@
 <title>Volt - Free Bootstrap 5 Dashboard</title>
 
 <!-- --------------------- -->
-<link rel="stylesheet" href="{{ asset('layout_style/css/bootstrap.min.css') }}">
+<link rel="stylesheet" href="{{ secure_asset('layout_style/css/bootstrap.min.css') }}">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <!-- --------------------- -->
 
@@ -50,25 +50,25 @@
 <meta property="twitter:image" content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-pro-bootstrap-5-dashboard/volt-pro-preview.jpg">
 
 <!-- Favicon -->
-<link rel="apple-touch-icon" sizes="120x120" href="{{ asset('layout_style/assets/img/favicon/apple-touch-icon.png') }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ asset('layout_style/assets/img/favicon/favicon-32x32.png') }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ asset('layout_style/assets/img/favicon/favicon-16x16.png') }}">
+<link rel="apple-touch-icon" sizes="120x120" href="{{ secure_asset('layout_style/assets/img/favicon/apple-touch-icon.png') }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ secure_asset('layout_style/assets/img/favicon/favicon-32x32.png') }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ secure_asset('layout_style/assets/img/favicon/favicon-16x16.png') }}">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-<link rel="manifest" href="{{ asset('layout_style/assets/img/favicon/site.webmanifest') }}">
-<link rel="mask-icon" href="{{ asset('layout_style/assets/img/favicon/safari-pinned-tab.svg') }}" color="#ffffff') }}">
+<link rel="manifest" href="{{ secure_asset('layout_style/assets/img/favicon/site.webmanifest') }}">
+<link rel="mask-icon" href="{{ secure_asset('layout_style/assets/img/favicon/safari-pinned-tab.svg') }}" color="#ffffff') }}">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 
 <!-- Sweet Alert -->
-<link type="text/css" href="{{ asset('layout_style/vendor/sweetalert2/dist/sweetalert2.min.css') }}" rel="stylesheet">
+<link type="text/css" href="{{ secure_asset('layout_style/vendor/sweetalert2/dist/sweetalert2.min.css') }}" rel="stylesheet">
 
 <!-- Notyf -->
-<link type="text/css" href="{{ asset('layout_style/vendor/notyf/notyf.min.css') }}" rel="stylesheet">
+<link type="text/css" href="{{ secure_asset('layout_style/vendor/notyf/notyf.min.css') }}" rel="stylesheet">
 
 <!-- Volt CSS -->
-<link type="text/css" href="{{ asset('layout_style/css/volt.css') }}" rel="stylesheet">
+<link type="text/css" href="{{ secure_asset('layout_style/css/volt.css') }}" rel="stylesheet">
 
 <!-- NOTICE: You can use the _analytics.html partial to include production code specific code & trackers -->
 
@@ -84,8 +84,8 @@
         
 
         <nav class="navbar navbar-dark navbar-theme-primary px-4 col-12 d-lg-none">
-    <a class="navbar-brand me-lg-5" href="{{ asset('layout_style/index.html') }}">
-        <img class="navbar-brand-dark" src="{{ asset('layout_style/assets/img/brand/light.svg') }}" alt="Volt logo" /> <img class="navbar-brand-light" src="{{ asset('layout_style/assets/img/brand/dark.svg') }}" alt="Volt logo" />
+    <a class="navbar-brand me-lg-5" href="{{ secure_asset('layout_style/index.html') }}">
+        <img class="navbar-brand-dark" src="{{ secure_asset('layout_style/assets/img/brand/light.svg') }}" alt="Volt logo" /> <img class="navbar-brand-light" src="{{ secure_asset('layout_style/assets/img/brand/dark.svg') }}" alt="Volt logo" />
     </a>
     <div class="d-flex align-items-center">
         <button class="navbar-toggler d-lg-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -99,12 +99,12 @@
     <div class="user-card d-flex d-md-none align-items-center justify-content-between justify-content-md-center pb-4">
       <div class="d-flex align-items-center">
         <div class="avatar-lg me-4">
-          <img src="{{ asset('layout_style/assets/img/team/profile-picture-3.jpg') }}" class="card-img-top rounded-circle border-white"
+          <img src="{{ secure_asset('layout_style/assets/img/team/profile-picture-3.jpg') }}" class="card-img-top rounded-circle border-white"
             alt="Bonnie Green">
         </div>
         <div class="d-block">
           <h2 class="h5 mb-3">Hi, Jane</h2>
-          <a href="{{ asset('layout_style/pages/examples/sign-in.html') }}" class="btn btn-secondary btn-sm d-inline-flex align-items-center">
+          <a href="{{ secure_asset('layout_style/pages/examples/sign-in.html') }}" class="btn btn-secondary btn-sm d-inline-flex align-items-center">
             <svg class="icon icon-xxs me-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path></svg>            
             Sign Out
           </a>
@@ -120,15 +120,15 @@
     </div>
     <ul class="nav flex-column pt-3 pt-md-0">
       <li class="nav-item">
-        <a href="{{ asset('layout_style/index.html') }}" class="nav-link d-flex align-items-center">
+        <a href="{{ secure_asset('layout_style/index.html') }}" class="nav-link d-flex align-items-center">
           <span class="sidebar-icon">
-            <img src="{{ asset('layout_style/assets/img/brand/light.svg') }}" height="20" width="20" alt="Volt Logo">
+            <img src="{{ secure_asset('layout_style/assets/img/brand/light.svg') }}" height="20" width="20" alt="Volt Logo">
           </span>
           <span class="mt-1 ms-1 sidebar-text">Volt Overview</span>
         </a>
       </li>
       <li class="nav-item  active ">
-        <a href="{{ asset('/admin/index') }}" class="nav-link">
+        <a href="{{ secure_asset('/admin/index') }}" class="nav-link">
           <span class="sidebar-icon">
             <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z"></path><path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"></path></svg>
           </span> 
@@ -136,7 +136,7 @@
         </a>
       </li>
       <li class="nav-item ">
-        <a href="{{ asset('/admin/novel') }}" class="nav-link">
+        <a href="{{ secure_asset('/admin/novel') }}" class="nav-link">
           <span class="sidebar-icon">
             <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4z"></path><path fill-rule="evenodd" d="M18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z" clip-rule="evenodd"></path></svg>
           </span>
@@ -144,7 +144,7 @@
         </a>
       </li>
       <li class="nav-item ">
-        <a href="{{ asset('/admin/guru') }}" class="nav-link">
+        <a href="{{ secure_asset('/admin/guru') }}" class="nav-link">
           <span class="sidebar-icon">
             <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"></path></svg>
           </span>
@@ -152,7 +152,7 @@
         </a>
       </li>
       <li class="nav-item ">
-        <a href="{{ asset('/admin/komik') }}" class="nav-link">
+        <a href="{{ secure_asset('/admin/komik') }}" class="nav-link">
           <span class="sidebar-icon">
             <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>
           </span>
@@ -160,7 +160,7 @@
         </a>
       </li>
       <li class="nav-item ">
-        <a href="{{ asset('/admin/majalah') }}" class="nav-link">
+        <a href="{{ secure_asset('/admin/majalah') }}" class="nav-link">
           <span class="sidebar-icon">
             <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12 1.586l-4 4v12.828l4-4V1.586zM3.707 3.293A1 1 0 002 4v10a1 1 0 00.293.707L6 18.414V5.586L3.707 3.293zM17.707 5.293L14 1.586v12.828l2.293 2.293A1 1 0 0018 16V6a1 1 0 00-.293-.707z" clip-rule="evenodd"></path></svg>
           </span>
@@ -168,7 +168,7 @@
         </a>
       </li>
       <li class="nav-item ">
-        <a href="{{ asset('/admin/ensiklopedia') }}" class="nav-link">
+        <a href="{{ secure_asset('/admin/ensiklopedia') }}" class="nav-link">
           <span class="sidebar-icon">
             <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
           </span>
@@ -190,13 +190,13 @@
       <li class="nav-item">
         <a href="https://themesberg.com" target="_blank" class="nav-link d-flex align-items-center">
           <span class="sidebar-icon">
-            <img src="{{ asset('layout_style/assets/img/themesberg.svg') }}" height="20" width="28" alt="Themesberg Logo">
+            <img src="{{ secure_asset('layout_style/assets/img/themesberg.svg') }}" height="20" width="28" alt="Themesberg Logo">
           </span>
           <span class="sidebar-text">Themesberg</span>
         </a>
       </li>
       <li class="nav-item">
-        <a href="{{ asset('layout_style/pages/upgrade-to-pro.html') }}"
+        <a href="{{ secure_asset('layout_style/pages/upgrade-to-pro.html') }}"
           class="btn btn-secondary d-flex align-items-center justify-content-center btn-upgrade-pro">
           <span class="sidebar-icon d-inline-flex align-items-center justify-content-center">
             <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clip-rule="evenodd"></path></svg>
@@ -240,7 +240,7 @@
                 <div class="row align-items-center">
                     <div class="col-auto">
                       <!-- Avatar -->
-                      <img alt="Image placeholder" src="{{ asset('layout_style/assets/img/team/profile-picture-1.jpg') }}" class="avatar-md rounded">
+                      <img alt="Image placeholder" src="{{ secure_asset('layout_style/assets/img/team/profile-picture-1.jpg') }}" class="avatar-md rounded">
                     </div>
                     <div class="col ps-0 ms-2">
                       <div class="d-flex justify-content-between align-items-center">
@@ -259,7 +259,7 @@
                 <div class="row align-items-center">
                     <div class="col-auto">
                       <!-- Avatar -->
-                      <img alt="Image placeholder" src="{{ asset('layout_style/assets/img/team/profile-picture-2.jpg') }}" class="avatar-md rounded">
+                      <img alt="Image placeholder" src="{{ secure_asset('layout_style/assets/img/team/profile-picture-2.jpg') }}" class="avatar-md rounded">
                     </div>
                     <div class="col ps-0 ms-2">
                       <div class="d-flex justify-content-between align-items-center">
@@ -278,7 +278,7 @@
                 <div class="row align-items-center">
                     <div class="col-auto">
                       <!-- Avatar -->
-                      <img alt="Image placeholder" src="{{ asset('layout_style/assets/img/team/profile-picture-3.jpg') }}" class="avatar-md rounded">
+                      <img alt="Image placeholder" src="{{ secure_asset('layout_style/assets/img/team/profile-picture-3.jpg') }}" class="avatar-md rounded">
                     </div>
                     <div class="col ps-0 m-2">
                       <div class="d-flex justify-content-between align-items-center">
@@ -297,7 +297,7 @@
                 <div class="row align-items-center">
                     <div class="col-auto">
                       <!-- Avatar -->
-                      <img alt="Image placeholder" src="{{ asset('layout_style/assets/img/team/profile-picture-4.jpg') }}" class="avatar-md rounded">
+                      <img alt="Image placeholder" src="{{ secure_asset('layout_style/assets/img/team/profile-picture-4.jpg') }}" class="avatar-md rounded">
                     </div>
                     <div class="col ps-0 ms-2">
                       <div class="d-flex justify-content-between align-items-center">
@@ -316,7 +316,7 @@
                 <div class="row align-items-center">
                     <div class="col-auto">
                       <!-- Avatar -->
-                      <img alt="Image placeholder" src="{{ asset('layout_style/assets/img/team/profile-picture-5.jpg') }}" class="avatar-md rounded">
+                      <img alt="Image placeholder" src="{{ secure_asset('layout_style/assets/img/team/profile-picture-5.jpg') }}" class="avatar-md rounded">
                     </div>
                     <div class="col ps-0 ms-2">
                       <div class="d-flex justify-content-between align-items-center">
@@ -341,7 +341,7 @@
         <li class="nav-item dropdown ms-lg-3">
           <a class="nav-link dropdown-toggle pt-1 px-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <div class="media d-flex align-items-center">
-              <img class="avatar rounded-circle" alt="Image placeholder" src="{{ asset('layout_style/assets/img/team/profile-picture-3.jpg') }}">
+              <img class="avatar rounded-circle" alt="Image placeholder" src="{{ secure_asset('layout_style/assets/img/team/profile-picture-3.jpg') }}">
               <div class="media-body ms-2 text-dark align-items-center d-none d-lg-block">
                 <span class="mb-0 font-small fw-bold text-gray-900">Josua Felix</span>
               </div>
@@ -424,45 +424,45 @@
         <!-- end content -->
 
     <!-- Core -->
-<script src="{{ asset('layout_style/vendor/@popperjs/core/dist/umd/popper.min.js') }}"></script>
-<script src="{{ asset('layout_style/vendor/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+<script src="{{ secure_asset('layout_style/vendor/@popperjs/core/dist/umd/popper.min.js') }}"></script>
+<script src="{{ secure_asset('layout_style/vendor/bootstrap/dist/js/bootstrap.min.js') }}"></script>
 
 <!-- Vendor JS -->
-<script src="{{ asset('layout_style/vendor/onscreen/dist/on-screen.umd.min.js') }}"></script>
+<script src="{{ secure_asset('layout_style/vendor/onscreen/dist/on-screen.umd.min.js') }}"></script>
 
 <!-- Slider -->
-<script src="{{ asset('layout_style/vendor/nouislider/distribute/nouislider.min.js') }}"></script>
+<script src="{{ secure_asset('layout_style/vendor/nouislider/distribute/nouislider.min.js') }}"></script>
 
 <!-- Smooth scroll -->
-<script src="{{ asset('layout_style/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js') }}"></script>
+<script src="{{ secure_asset('layout_style/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js') }}"></script>
 
 <!-- Charts -->
-<script src="{{ asset('layout_style/vendor/chartist/dist/chartist.min.js') }}"></script>
-<script src="{{ asset('layout_style/vendor/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js') }}"></script>
+<script src="{{ secure_asset('layout_style/vendor/chartist/dist/chartist.min.js') }}"></script>
+<script src="{{ secure_asset('layout_style/vendor/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js') }}"></script>
 
 <!-- Datepicker -->
-<script src="{{ asset('layout_style/vendor/vanillajs-datepicker/dist/js/datepicker.min.js') }}"></script>
+<script src="{{ secure_asset('layout_style/vendor/vanillajs-datepicker/dist/js/datepicker.min.js') }}"></script>
 
 <!-- Sweet Alerts 2 -->
-<script src="{{ asset('layout_style/vendor/sweetalert2/dist/sweetalert2.all.min.js') }}"></script>
+<script src="{{ secure_asset('layout_style/vendor/sweetalert2/dist/sweetalert2.all.min.js') }}"></script>
 
 <!-- Moment JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
 
 <!-- Vanilla JS Datepicker -->
-<script src="{{ asset('layout_style/vendor/vanillajs-datepicker/dist/js/datepicker.min.js') }}"></script>
+<script src="{{ secure_asset('layout_style/vendor/vanillajs-datepicker/dist/js/datepicker.min.js') }}"></script>
 
 <!-- Notyf -->
-<script src="{{ asset('layout_style/vendor/notyf/notyf.min.js') }}"></script>
+<script src="{{ secure_asset('layout_style/vendor/notyf/notyf.min.js') }}"></script>
 
 <!-- Simplebar -->
-<script src="{{ asset('layout_style/vendor/simplebar/dist/simplebar.min.js') }}"></script>
+<script src="{{ secure_asset('layout_style/vendor/simplebar/dist/simplebar.min.js') }}"></script>
 
 <!-- Github buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 <!-- Volt JS -->
-<script src="{{ asset('layout_style/assets/js/volt.js') }}"></script>
+<script src="{{ secure_asset('layout_style/assets/js/volt.js') }}"></script>
 
     
 </body>
