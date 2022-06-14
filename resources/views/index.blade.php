@@ -392,7 +392,8 @@
     <div class="row">
       <div class="col-md">
         <form action="{{ url('/admin/novel') }}" method="post">
-          @CSRF
+          @csrf
+          <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
           <div class="form-group">
             <label for="judul_buku">Masukkan Judul Buku</label>
