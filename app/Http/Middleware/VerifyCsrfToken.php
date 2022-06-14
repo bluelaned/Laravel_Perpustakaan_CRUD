@@ -17,7 +17,6 @@ class VerifyCsrfToken extends Middleware
         '/edit-novel/{id}',
         '/update-novel/{id}',
         '/delete-novel/{id}',
-
         'guru',
         '/edit-guru/{id}',
         '/update-guru/{id}',

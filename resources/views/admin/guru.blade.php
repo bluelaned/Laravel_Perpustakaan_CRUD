@@ -20,7 +20,7 @@ h3{
 </style>
 
 <div class="scroll">
-	<h3>Data Guri</h3>
+	<h3>Data Guru</h3>
 	<button id="button" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Create</button>
         <!-- Modal -->
 	    <table class="table-bordered table">
