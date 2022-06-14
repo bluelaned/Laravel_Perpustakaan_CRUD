@@ -195,4 +195,6 @@ return [
     ])->toArray(),
 
     'debug' => env('APP_DEBUG', true),
+    
+'key' => env('APP_KEY', 'SomeRandomStringSomeRandomString'),
 ];
