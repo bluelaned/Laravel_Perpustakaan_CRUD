@@ -13,15 +13,9 @@ class VerifyCsrfToken extends Middleware
      */
     protected $except = [
         //
-        'guru',
         'novel',
         '/edit-novel/{id}',
         '/update-novel/{id}',
         '/delete-novel/{id}',
-        
-        
-        '/edit-guru/{id}',
-        '/update-guru/{id}',
-        '/delete-guru/{id}'
     ];
 }
