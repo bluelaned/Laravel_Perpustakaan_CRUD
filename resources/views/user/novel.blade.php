@@ -9,7 +9,7 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	
-	<link rel="stylesheet" href="{{ asset('layout_user/css/style.css') }}">
+	<link rel="stylesheet" href="{{ secure_asset('layout_user/css/style.css') }}">
 <style>
 	.navbar-nav{
 		
@@ -22,10 +22,10 @@
   		<div class="collapse navbar-collapse" id="navbarNav">
     		<ul class="navbar-nav">
       			<li class="nav-item active">
-	        		<a class="nav-link" href="{{ asset('user/novel') }}">NOVEL</a>
+	        		<a class="nav-link" href="{{ secure_asset('user/novel') }}">NOVEL</a>
       			</li>
 				<li class="nav-item active">
-	        		<a class="nav-link" href="{{ asset('user/guru') }}">GURU</a>
+	        		<a class="nav-link" href="{{ secure_asset('user/guru') }}">GURU</a>
       			</li>
     		</ul>
   		</div>
@@ -64,10 +64,10 @@
 		</div>
 	</section>
 
-	<script src="{{ asset('layout_user/js/jquery.min.js') }}"></script>
-  <script src="{{ asset('layout_user/js/popper.js') }}"></script>
-  <script src="{{ asset('layout_user/js/bootstrap.min.js') }}"></script>
-  <script src="{{ asset('layout_user/js/main.js') }}"></script>
+	<script src="{{ secure_asset('layout_user/js/jquery.min.js') }}"></script>
+  <script src="{{ secure_asset('layout_user/js/popper.js') }}"></script>
+  <script src="{{ secure_asset('layout_user/js/bootstrap.min.js') }}"></script>
+  <script src="{{ secure_asset('layout_user/js/main.js') }}"></script>
 
 	</body>
 </html>
