@@ -20,6 +20,7 @@
 
 <head> 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
 <!-- Primary Meta Tags -->
 <title>Volt - Free Bootstrap 5 Dashboard</title>
 
@@ -393,7 +394,7 @@
       <div class="col-md">
         <form action="{{ url('/admin/novel') }}" method="post">
           @csrf
-          <input type="hidden" name="_token" value="{{ csrf_token() }}">
+
 
           <div class="form-group">
             <label for="judul_buku">Masukkan Judul Buku</label>
