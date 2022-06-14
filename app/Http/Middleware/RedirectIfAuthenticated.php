@@ -21,7 +21,7 @@ class RedirectIfAuthenticated
     {
         $guards = empty($guards) ? [null] : $guards;
 
-        if (Auth::guard($guard)->check() && Auth::user()->role == '1'){
+        if (Auth::guard($guard)->check() && Auth::user()->name == 'Josua Felix'){
             return redirect('/admin/index');
         }else if (Auth::guard($guard)->check() && Auth::user()->role == '2'){
             return redirect('/admin/guru');
