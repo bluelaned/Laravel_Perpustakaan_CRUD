@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'env' => env('APP_ENV', 'production'),
+    'env' => env(key: 'APP_ENV', default: 'production'),
 
     /*
     |--------------------------------------------------------------------------
