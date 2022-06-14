@@ -394,8 +394,6 @@
       <div class="col-md">
         <form action="{{ url('/admin/novel') }}" method="post">
           @csrf
-
-
           <div class="form-group">
             <label for="judul_buku">Masukkan Judul Buku</label>
             <input type="text" name="judul_buku" id="judul_buku" class="form-control" value="{{ old('judul_buku') }}">
