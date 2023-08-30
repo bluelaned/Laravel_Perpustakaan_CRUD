@@ -1,5 +1,4 @@
-# Laravel_Apotek_CRUD
-
+# Laravel_Perpustakaan_CRUD
 ## Installation
 
 - **composer update**
